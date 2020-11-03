@@ -1,0 +1,24 @@
+{
+  "name": "basic-node-server",
+  "version": "1.0.0",
+  "description": "Basic node js server for API's",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express"
+  ],
+  "author": "Suhail Taj Shaik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dot-env": "0.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
